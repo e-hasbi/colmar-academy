@@ -27,6 +27,9 @@ This is a solution to the [Colmar Academy - Codecademy Project](https://content.
     - Responsive design for Desktop and Mobile.
 
 ## Process
+    
+    - I divid it into 6 sections and will be working on each section alone.
+    
 
 ### Built With
 

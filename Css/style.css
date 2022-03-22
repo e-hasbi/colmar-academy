@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header  img {
+    height: 40px;
+}
+
+header nav a {
+    margin-left: 16px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div a {
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+header span {
+    color: grey;
+    font-weight: 300;
+}
