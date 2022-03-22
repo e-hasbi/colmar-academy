@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #454343;
 }
 
 header {
@@ -41,3 +42,43 @@ header span {
     color: grey;
     font-weight: 300;
 }
+
+
+.second-section {
+    background-color: #d1d1d1;
+    display: flex;
+    align-items: center;
+    
+}
+
+.second-section  img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.second-section  div {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-section div h1 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.second-section div p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.second-section  div button {
+    font-size: medium;
+    width: 100%;
+    padding: 8px 0 8px;
+    background-color: #454343;
+    color: white;
+    border: 0;
+}
+
