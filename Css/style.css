@@ -222,7 +222,7 @@ header span {
 
 .video-section {
     flex-basis: 60%;
-    margin: 32px 24px 32px 24px ;
+    margin: 32px 24px 32px 24px;
 }
 
 .video-section video {
@@ -298,4 +298,22 @@ header span {
 
 .resouces-section-child2 div p {
     font-weight: 300;
+}
+
+footer {
+    border-top: 1px #d1d1d1 solid;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+footer p {
+    margin-left: 24px;
+}
+
+footer div a {
+    margin-right: 24px;
+    padding-bottom: 32px;
 }
