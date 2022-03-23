@@ -48,7 +48,6 @@ header span {
     background-color: #d1d1d1;
     display: flex;
     align-items: center;
-    
 }
 
 .second-section  img {
@@ -82,3 +81,73 @@ header span {
     border: 0;
 }
 
+.third-section {
+    display: flex;
+}
+
+.third-section-child1 {
+    flex-basis: 60%;
+    margin: 32px 24px;
+}
+
+.third-section-child1 img {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.third-section-child1 h2 {
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.third-section-child1 p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.third-section-child1 span {
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.third-section-child2 {
+    flex-basis: 40%;
+    margin-top: 10px;
+}
+
+.third-section-child2 div {
+    
+    display: flex;
+}
+
+.third-section-child2-1 div,
+.third-section-child2-2 div,
+.third-section-child2-3 div {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.third-section-child2 div p {
+    margin: 8px 0 8px 0;
+    font-weight: 300;
+}
+
+.third-section-child2 div a {
+    text-decoration: none;
+    color: #1ec9fc;
+    font-weight: 300;
+}
+
+.third-section-child2 div img {
+    height: auto;
+    width: 35%;
+    margin: 16px;
+}
+
+.third-section-child2-3 {
+    background-color: #d1d1d1;
+}
