@@ -210,3 +210,92 @@ header span {
     justify-content: space-between;
     margin: 0 72px 0 72px;
 }
+
+.fifth-section h2 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.fifth-section-card {
+    display: flex;
+}
+
+.video-section {
+    flex-basis: 60%;
+    margin: 32px 24px 32px 24px ;
+}
+
+.video-section video {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.video-section h3 {
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.video-section p {
+    font-weight: 300;
+    width: 100%;
+}
+
+.resouces-section {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+}
+
+.resouces-section-child1 {
+    background-color: #d1d1d1;
+    display: flex;
+}
+
+.resouces-section-child1 img {
+    width: 35%;
+    margin: 16px;
+    height: auto;
+}
+
+.resouces-section-child1 div {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resouces-section-child1 div h3 {
+    margin: 0 16px 10px 0;
+    font-weight: 400;
+}
+
+.resouces-section-child1 div p {
+    font-weight: 300;
+}
+
+.resouces-section-child2 {
+    display: flex;
+}
+
+.resouces-section-child2 img {
+    width: 35%;
+    margin: 16px;
+    height: auto;
+}
+
+.resouces-section-child2 div {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resouces-section-child2 div h3 {
+    margin: 0 16px 10px 0;
+    font-weight: 400;
+}
+
+.resouces-section-child2 div p {
+    font-weight: 300;
+}
